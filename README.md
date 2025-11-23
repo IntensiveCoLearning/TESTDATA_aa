@@ -62,20 +62,20 @@ Telegram：
 ✅ = Done ⭕️ = Missed ❌ = Failed
 
 <!-- START_COMMIT_TABLE -->
+
 | Name | 11.27 | 11.28 | 11.29 | 11.30 |
-| ------------- | ---- | ---- | ---- | ---- |
-| [muxin-web3](https://github.com/IntensiveCoLearning/TESTDATA_aa/blob/main/muxin-web3.md) | | | | |
+| ---- | ----- | ----- | ----- | ----- |
+
 <!-- END_COMMIT_TABLE -->
 
-
-
 <!-- STATISTICALDATA_START -->
+
 ## 统计数据
 
 - 总参与人数: 0
 - 完成人数: 0
-- 完成用户: 
-- 全勤用户: 
+- 完成用户:
+- 全勤用户:
 - 淘汰人数: 0
 - 淘汰率: 0.00%
 <!-- STATISTICALDATA_END -->

@@ -70,7 +70,13 @@ jobs:
             const userName = nameMatch ? nameMatch[1].trim() : githubId;
             const userTimezone = timezoneMatch ? timezoneMatch[1].trim() : 'UTC+8';
             const userContact = contactMatch ? contactMatch[1].trim() : '';
-            const userIntro = introMatch ? introMatch[1].trim() : '';
+            let userIntro = introMatch ? introMatch[1].trim() : '';
+            // If intro ends with an unmatched code-fence line (``` or more), drop that trailing fence
+            const fenceLineRe = /(\n\s*`{3,}[^\n]*\s*)$/;
+            const fenceCount = (userIntro.match(/(^|\n)\s*`{3,}[^\n]*\s*(?=\n|$)/g) || []).length;
+            if (fenceLineRe.test(userIntro) && fenceCount % 2 === 1) {
+              userIntro = userIntro.replace(fenceLineRe, '').replace(/\n+$/,'').trim();
+            }
 
             // Set output for next step
             core.setOutput('github_id', githubId);

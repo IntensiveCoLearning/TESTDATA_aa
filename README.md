@@ -64,8 +64,9 @@ Telegram：
 <!-- START_COMMIT_TABLE -->
 | Name | 11.27 | 11.28 | 11.29 | 11.30 |
 | ------------- | ---- | ---- | ---- | ---- |
-| [muxin-web3](https://github.com/IntensiveCoLearning/TESTDATA_aa/blob/main/muxin-web3.md) |   | | | |
+| [muxin-web3](https://github.com/IntensiveCoLearning/TESTDATA_aa/blob/main/muxin-web3.md) | ⭕️ |   | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
